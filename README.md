@@ -1,16 +1,37 @@
-# first_app
+# Flutter Lab 1 - First Application
 
-A new Flutter project.
+## Student: Aray
+## Laboratory Work 1
 
-## Getting Started
+### Completed Tasks:
+✅ Set up Flutter & Dart SDK  
+✅ Configured VS Code development environment  
+✅ Created Flutter project (`first_app`)  
+✅ Run application in Chrome emulator  
+✅ Modified Text widget with custom message  
+✅ Added Container widget with custom color and size  
+✅ Customized text style (font size, weight, color)  
+✅ Tested Hot Reload functionality  
 
-This project is a starting point for a Flutter application.
+### Screenshot:
+![Lab 1 Screenshot](lab_1_photo.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Code Highlights:
+```dart
+// Custom Text with styles
+Text(
+  'Привет, меня зовут Арай! 👋',
+  style: TextStyle(
+    fontSize: 28.0,
+    fontWeight: FontWeight.bold,
+    color: Colors.deepPurple,
+  ),
+),
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+// Added Container widget
+Container(
+  width: 280,
+  height: 160,
+  color: Colors.blueAccent,
+  child: Center(child: Text('Это виджет Container')),
+)
